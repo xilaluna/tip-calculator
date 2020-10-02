@@ -4,30 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <div id="input-div">
-        <section id="bill-section">
-          <p>Bill</p>
-          <input type="number" id="input-bill" />
-        </section>
-        <section id="tip-section">
-          <p>Tip %</p>
-          <input type="number" id="input-tip" />
-        </section>
-        <section id="number-people-section">
-          <p>Number of People</p>
-          <input type="number" id="input-people" />
-        </section>
-      </div>
-      <div id="display-div">
-        <section id="dis-tip-section">
-          <h2 id="display-tip">Tip:</h2>
-        </section>
-        <section id="dis-total-section">
-          <h2 id="display-total">Total:</h2>
-        </section>
+      <div id="container">
+        <div id="input-div">
+          <section id="bill-section">
+            <p>Bill</p>
+            <input type="number" id="input-bill" />
+          </section>
+          <section id="tip-section">
+            <p>Tip %</p>
+            <input type="number" id="input-tip" />
+          </section>
+          <section id="number-people-section">
+            <p>Number of People</p>
+            <input type="number" id="input-people" />
+          </section>
+        </div>
+        <div id="display-div">
+          <section id="dis-tip-section">
+            <h2>Tip:</h2>
+            <p id="display-tip"></p>
+          </section>
+          <section id="dis-total-section">
+            <h2>Total:</h2>
+            <p id="display-total"></p>
+          </section>
+        </div>
       </div>
     </main>
     <script src="script.js"></script>
