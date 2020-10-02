@@ -12,8 +12,8 @@ function calculation() {
   let tip = (bill * percent) / 100;
   let total = bill + tip / people;
 
-  displayTip.innerHTML = tip;
-  displayTotal.innerHTML = total;
+  displayTip.innerHTML = `$${tip}`;
+  displayTotal.innerHTML = `$${total}`;
 }
 
 billInput.addEventListener("input", calculation);
